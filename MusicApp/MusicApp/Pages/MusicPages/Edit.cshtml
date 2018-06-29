@@ -1,0 +1,23 @@
+﻿@page
+@model EditModel
+@{
+}
+
+<div>
+    <h2>Edit Music List</h2>
+    <div>
+        <form method="post">
+            <input asp-for="Connection.ID" type="hidden"/>
+            <input asp-for="Connection.Album" type="text" placeholder="Album" />
+            <span asp-validation-for="Connection.Album"></span>
+            <input asp-for="Connection.Artist" type="text" placeholder="Artist" />
+            <span asp-validation-for="Connection.Artist"></span>
+            <input asp-for="Connection.Likes" type="text" placeholder="Likes" />
+            <span asp-validation-for="Connection.Likes"></span>
+            <input type="submit" value="Edit Music" />
+            <a asp-page="Index">Back to MusicList</a>
+
+
+        </form>
+    </div>
+</div>

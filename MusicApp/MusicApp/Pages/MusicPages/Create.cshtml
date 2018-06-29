@@ -1,0 +1,36 @@
+﻿@page
+@model CreateModel
+@{
+}
+
+<div>
+    <h2 class="w3-center" style="color:red">Add Music List</h2>
+    <div class="w3-center">
+        <form method="post">
+            <div style="margin-bottom: 20px;margin-top: 20px">
+                <label asp-for="Connection.Album"></label>
+                <input asp-for="Connection.Album" type="text" placeholder="Album" />
+                <span asp-validation-for="Connection.Album"></span>
+            </div>
+
+            <div style="margin-bottom: 20px">
+                <label asp-for="Connection.Artist"></label>
+                <input asp-for="Connection.Artist" type="text" placeholder="Artist" />
+                <span asp-validation-for="Connection.Artist"></span>
+            </div>
+
+            <div style="margin-bottom: 20px">
+                <label asp-for="Connection.Likes"></label>
+                <input asp-for="Connection.Likes" type="text" placeholder="Likes" />
+                <span asp-validation-for="Connection.Likes"></span>
+            </div>
+            <div>
+                <input type="submit" value="Add Music" />
+            </div>
+
+            <a asp-page="Index">Back to MusicList</a>
+
+
+        </form>
+    </div>
+</div>

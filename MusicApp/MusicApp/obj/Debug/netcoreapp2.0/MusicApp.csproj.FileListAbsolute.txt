@@ -1,0 +1,11 @@
+C:\Users\Stravya Guddati\source\repos\MusicApp\MusicApp\bin\Debug\netcoreapp2.0\MusicApp.deps.json
+C:\Users\Stravya Guddati\source\repos\MusicApp\MusicApp\bin\Debug\netcoreapp2.0\MusicApp.runtimeconfig.json
+C:\Users\Stravya Guddati\source\repos\MusicApp\MusicApp\bin\Debug\netcoreapp2.0\MusicApp.runtimeconfig.dev.json
+C:\Users\Stravya Guddati\source\repos\MusicApp\MusicApp\bin\Debug\netcoreapp2.0\MusicApp.dll
+C:\Users\Stravya Guddati\source\repos\MusicApp\MusicApp\bin\Debug\netcoreapp2.0\MusicApp.pdb
+C:\Users\Stravya Guddati\source\repos\MusicApp\MusicApp\obj\Debug\netcoreapp2.0\MusicApp.csprojAssemblyReference.cache
+C:\Users\Stravya Guddati\source\repos\MusicApp\MusicApp\obj\Debug\netcoreapp2.0\MusicApp.csproj.CoreCompileInputs.cache
+C:\Users\Stravya Guddati\source\repos\MusicApp\MusicApp\obj\Debug\netcoreapp2.0\MusicApp.AssemblyInfoInputs.cache
+C:\Users\Stravya Guddati\source\repos\MusicApp\MusicApp\obj\Debug\netcoreapp2.0\MusicApp.AssemblyInfo.cs
+C:\Users\Stravya Guddati\source\repos\MusicApp\MusicApp\obj\Debug\netcoreapp2.0\MusicApp.dll
+C:\Users\Stravya Guddati\source\repos\MusicApp\MusicApp\obj\Debug\netcoreapp2.0\MusicApp.pdb

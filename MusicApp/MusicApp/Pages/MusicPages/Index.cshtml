@@ -1,0 +1,69 @@
+﻿@page
+@model IndexModel
+@{
+}
+
+    <h2 class="w3-center" style="font-size: 50px;color:red">My Music</h2>
+    <div>
+        <a asp-page="Create">Add new Connection</a>
+
+    </div>
+    @if (Model.afterAddMessage != null)
+    {
+        <div>
+            @Model.afterAddMessage
+        </div>
+
+
+    }
+    <div>
+        @if (Model.myMusic.Count() > 0)
+        {
+            <form method="post">
+                <div>
+                    <table class="w3-table-all w3-centered">
+                        <tr>
+                            <th>
+                                @Html.DisplayNameFor(m => m.myMusic.FirstOrDefault().Album)
+
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(m => m.myMusic.FirstOrDefault().Artist)
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(m => m.myMusic.FirstOrDefault().Likes)
+                            </th>
+                            <th>
+
+                            </th>
+                        </tr>
+                        @foreach (var item in Model.myMusic)
+                        {
+                            <tr>
+                                <td>
+                                    @Html.DisplayFor(m => item.Album)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(m => item.Artist)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(m => item.Likes)
+                                </td>
+                                <td>
+                                    <a asp-page="Edit" asp-route-id="@item.ID">Edit</a>
+                                    <button asp-page-handler="Delete" asp-route-id="@item.ID">&times;</button>
+                                </td>
+                            </tr>
+
+                        }
+                    </table>
+                </div>
+            </form>
+
+        }
+        else
+        {
+            <p>No Musics Currently</p>
+
+        }
+    </div>
